@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">5.1MarriSug 適婚建議</string>
+    <string name="m0501_s001">請選擇性別</string>
+    <string name="m0501_b001">婚姻建議</string>
+    <string name="m0501_t003">結果:</string>
+    <string name="m0501_f000">建議您</string>
+    <string name="m0501_f001">還年輕不用急.</string>
+    <string name="m0501_f002">此時結婚最好.</string>
+    <string name="m0501_f003">快點找伴侶,已經遲啦.</string>
+    <string name="m0501_t004">10號梁晉偉</string>
+    <string name="hint">請輸入年齡</string>
+    <string name="chkSex">男</string>
+    <string name="chkSex2">女</string>
+    <string name="m0501_f004">請勿輸入空白</string>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m1003_r001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back03"
+    android:padding="@dimen/padding"
+    tools:context=".M1003">
+
+    <TextView
+        android:id="@+id/m1003_t001"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/Yellow"
+        android:gravity="center"
+        android:text="@string/m1003_t001"
+        android:textColor="@color/Fuchsia"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/m1003_t002"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1003_t001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/Rouge"
+        android:gravity="center"
+        android:text="@string/m1003_t002"
+        android:textColor="@color/Yellow"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/m1003_t003"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1003_t001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:background="@color/Rouge"
+        android:gravity="center"
+        android:text="@string/m1003_t003"
+        android:textColor="@color/Yellow"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m1003_b004"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/m1003_t004"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="52dp"
+        android:text="@string/m1003_b004" />
+
+    <ImageButton
+        android:id="@+id/m1003_b001"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/m1003_t003"
+        android:layout_alignStart="@+id/m1003_t003"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/circle_shape"
+        android:contentDescription="@string/m1003_b001"
+        android:scaleType="fitXY"
+        android:src="@drawable/scissors"
+        android:text="@string/m1003_b001"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/m1003_b002"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/m1003_b001"
+        android:layout_alignStart="@+id/m1003_b001"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/circle_shape"
+        android:contentDescription="@string/m1003_b002"
+        android:scaleType="fitXY"
+        android:src="@drawable/stone" />
+
+    <ImageButton
+        android:id="@+id/m1003_b003"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/m1003_b002"
+        android:layout_alignStart="@+id/m1003_b002"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/circle_shape"
+        android:contentDescription="@string/m1003_b003"
+        android:scaleType="fitXY"
+        android:src="@drawable/net" />
+
+    <ImageSwitcher
+        android:id="@+id/m1003_c001"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignStart="@+id/m1003_t002"
+        android:layout_alignTop="@+id/m1003_b002"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/m1003_t002"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/scissors">
+
+    </ImageSwitcher>
+
+    <TextView
+        android:id="@+id/m1003_t004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1003_b003"
+        android:background="@color/Silver"
+        android:text="@string/m1003_t004"
+        android:textColor="@color/Maroon"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/m1003_t005"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1003_t004"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="@string/m1003_t005"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/myName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m1003_t005"
+        android:layout_alignEnd="@+id/m1003_t005"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/myName"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/m1003_b005"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/m1003_t004"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/m1003_b005" />
+
+    <Button
+        android:id="@+id/m1003_b006"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/m1003_t004"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/m1003_b005"
+        android:text="@string/m1003_b006" />
+</RelativeLayout>

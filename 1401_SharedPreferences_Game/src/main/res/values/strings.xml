@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">14.1 SharedPreferences-Game</string>
+    <string name="myName">10號 梁晉偉</string>
+    <string name="action_save">儲存局數</string>
+    <string name="action_load">載入局數</string>
+    <string name="action_clear">清除局數</string>
+    <string name="m1003_save">儲存成功</string>
+    <string name="m1003_load">載入成功</string>
+
+
+</resources>
